@@ -19,6 +19,13 @@ vc_map(
 
             ),
 
+            array(
+                'type' => 'css_editor',
+                'heading' => __('Css Box', 'xzopro-toolkit'),
+                'param_name' => 'css',
+
+            )
+
 
 
 
