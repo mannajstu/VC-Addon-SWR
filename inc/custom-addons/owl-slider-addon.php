@@ -7,21 +7,22 @@ if (!defined('ABSPATH')) {
 
 vc_map(
     array(
-        "name" => __("Post Count", "xzopro-toolkit"),
-        "base" => "woo_products",
-        "category" => __("SWR VC", "xzopro-toolkit"),
+        "name" => __("Product Slider"),
+        "base" => "woo_products_slider",
+        "category" => __("SWR VC"),
         "icon"  => SWR_ACC_URL . '/assets/images/td-logo.png',
         "params" => array(
 
             array(
-                "type" => "textfield",
-                "param_name" => "count",
-
+                "type" => "attach_images",
+                "param_name" => "image_silder",
+                'heading' => __('Put Images'),
+                'group' => __('Image')
             ),
 
             array(
                 'type' => 'css_editor',
-                'heading' => __('Css Box', 'xzopro-toolkit'),
+                'heading' => __('Css Box'),
                 'param_name' => 'css',
 
             )

@@ -26,7 +26,7 @@ class SwrVCExtendAddonClass
 
         // visual composer addons.
 
-        require_once(SWR_ACC_PATH . 'inc/custom-addons/woocom-products-addon.php');
+        require_once(SWR_ACC_PATH . 'inc/custom-addons/owl-slider-addon.php');
     }
 
     public function SwrShowVcVersionNotice()

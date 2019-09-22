@@ -6,4 +6,4 @@ if (!defined('ABSPATH')) {
 
 // Xzopro All Shortcodes
 
-require_once('woocom-products-shortcode.php');
+require_once('owl-slider-shortcode.php');
